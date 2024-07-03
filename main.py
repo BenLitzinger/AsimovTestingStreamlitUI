@@ -8,6 +8,7 @@ headers = CaseInsensitiveDict()
 headers["Content-Type"] = "application/json"
 
 user_messages = ["Kreditkarte", "Hilfe", "Wie wird das Wetter morgen?"]
+print("test")
 
 for user_message in user_messages:
     data = {
